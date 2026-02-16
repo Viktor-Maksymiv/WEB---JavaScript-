@@ -116,10 +116,9 @@ function triangle(value1, type1, value2, type2){
         return "success"
     }
 
-    if (types.includes("hypotenuse") && (types.includes("adjacent angle") || types.includes("opposite angle"))) {
+    if (types.includes("hypotenuse") && types.includes("angle")) {
         const c = values[types.indexOf("hypotenuse")]
-        const angleIdx = types.findIndex(type => type.includes("angle"));
-        const alpha = values[angleIdx];
+        const alpha = values[types.indexOf("angle")];
 
         if (alpha >= 90){
             return "An angle is bigger than or equal to 90 degrees!"
