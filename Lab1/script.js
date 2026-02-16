@@ -121,6 +121,10 @@ function triangle(value1, type1, value2, type2){
         const angleIdx = types.findIndex(type => type.includes("angle"));
         const alpha = values[angleIdx];
 
+        if (alpha >= 90){
+            return "An angle is bigger than or equal to 90 degrees!"
+        }
+
         const beta = 90 - alpha
 
         const a = c * Math.sin(toRadians(alpha))
