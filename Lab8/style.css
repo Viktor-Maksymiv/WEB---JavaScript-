@@ -1,0 +1,23 @@
+.nav-menu {
+    display: flex;
+}
+
+.hamburger {
+    display: none;
+}
+
+.image-large { display: block; }
+.image-medium { display: none; }
+
+@media (max-width: 767px) {
+    .nav-menu {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .image-large { display: none; }
+    .image-medium { display: block; }
+}
