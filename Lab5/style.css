@@ -1,0 +1,27 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+}
+
+#setupMenu {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#gameArea {
+    display: none;
+}
+
+#targetBox {
+    position: absolute;
+    cursor: pointer;
+    display: none;
+}
