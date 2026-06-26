@@ -1,0 +1,6 @@
+[
+  {"id": "t1", "name": "Tab Pro 12", "shortname": "tb_pro", "description": "Великий екран", "price": "1000$"},
+  {"id": "t2", "name": "Tab Mini", "shortname": "tb_mini", "description": "Для читання", "price": "450$"},
+  {"id": "t3", "name": "Kids Tab", "shortname": "tb_kids", "description": "Для дітей", "price": "150$"},
+  {"id": "t4", "name": "Draw Tab", "shortname": "tb_draw", "description": "Для дизайнерів", "price": "1100$"}
+]

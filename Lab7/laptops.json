@@ -1,0 +1,6 @@
+[
+  {"id": "l1", "name": "WorkBook Pro", "shortname": "wb_pro", "description": "Для складних задач", "price": "1200$"},
+  {"id": "l2", "name": "GameStation", "shortname": "gs_1", "description": "Ігровий монстр", "price": "1500$"},
+  {"id": "l3", "name": "NetBook Air", "shortname": "nb_air", "description": "Легкий та компактний", "price": "800$"},
+  {"id": "l4", "name": "Office PC", "shortname": "of_pc", "description": "Бюджетний варіант", "price": "400$"}
+]
